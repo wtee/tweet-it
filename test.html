@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test page</title>
+    <link rel="stylesheet" href="tweet-it.css" />
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue leo, mattis at eros quis, facilisis malesuada dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce aliquet aliquam velit sed ultrices. Phasellus eu accumsan est. Etiam tincidunt efficitur quam et rutrum. Nunc sit amet tellus non libero mattis bibendum. Aliquam eu tortor eget ipsum interdum aliquam et non orci. Donec sit amet augue est. Vivamus ac tellus pretium, mattis odio tristique, lobortis neque. Quisque condimentum cursus felis a volutpat. Aliquam porta orci eget eros pharetra lobortis. Quisque ornare ligula interdum, accumsan eros vitae, ornare nibh. Nunc feugiat dui id diam dapibus, vitae congue dolor porttitor. Ut pellentesque justo dictum ipsum placerat tincidunt.</p>
+    <p>Duis condimentum fermentum enim, quis volutpat est fermentum eu. In sodales semper odio, quis vulputate tortor feugiat eget. Donec quis elementum quam. Fusce orci sem, convallis blandit est at, mattis tristique mi. In egestas, lacus ac tristique fringilla, lorem quam luctus felis, eu finibus urna elit non est. In semper, diam vitae suscipit convallis, nulla nulla condimentum eros, quis mattis sapien ex a nisi. Cras mollis id lorem sit amet imperdiet. Sed lacinia sem at elit interdum, sit amet tincidunt metus mattis. Nulla facilisi.</p>
+    <p>Vivamus mattis leo vitae risus molestie tempor. Cras et nibh non orci vestibulum convallis venenatis quis ex. Maecenas sit amet leo accumsan, consectetur libero sit amet, hendrerit justo. Mauris sit amet velit lobortis, luctus tortor ac, lacinia nisi. In semper malesuada diam, ac pharetra turpis suscipit non. Sed cursus eu magna eu viverra. Pellentesque egestas dui at orci suscipit, nec dignissim nisl dictum. Pellentesque et eros non nisl feugiat lobortis. Nullam ac orci turpis. Aenean velit tortor, ultricies ut ullamcorper at, iaculis vitae sem. Nulla commodo mattis risus vel sagittis. Suspendisse finibus feugiat fermentum. Sed nec semper dui. Etiam id aliquet velit. Morbi blandit dui felis, vel fringilla nisl tincidunt mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    <p>Nam sit amet nisi metus. Sed bibendum et ligula at dapibus. Ut sit amet orci id mauris tristique varius. Proin quis auctor mi, non placerat erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus neque tortor, facilisis ultricies erat ac, molestie tempor purus. Cras vulputate sem vitae mauris fringilla vulputate.</p>
+    <p>Duis ultrices rutrum ex et pulvinar. Integer hendrerit at purus eu molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin velit ex, hendrerit sed porta vitae, tempus vel sem. Vivamus semper arcu sed purus pretium porta. Proin id libero at leo varius egestas. Pellentesque interdum, mi sed commodo lacinia, arcu nisi suscipit risus, eu mattis tortor est nec ante. In volutpat, quam vel rutrum rhoncus, turpis leo vehicula risus, ac egestas lorem eros ut sapien. Maecenas iaculis, velit quis maximus tempus, tortor diam varius elit, non efficitur odio nisl eu tortor. Phasellus finibus, mi interdum rhoncus imperdiet, est justo rutrum sapien, et feugiat lacus urna ut tellus. Vivamus dapibus elementum dolor, sed mattis diam cursus non.</p>
+    <div id="stats"></div>
+    <script>
+      window.onmousemove = function (e) {
+        document.getElementById('stats').innerHTML = "clientX: " + e.clientX + " clientY: " + e.clientY + "<br />pageX: " + e.pageX + " pageY: " + e.pageY;
+      };
+    </script>
+    <script src="tweet-it.min.js"></script>
+  </body>
+</html>

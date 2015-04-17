@@ -1,0 +1,32 @@
+/* This is free and unencumbered software released into the public domain
+ * under the terms of the Unlicense <http://unlicense.org>
+ *
+ * If you make modifications, please consider releasing your work
+ * into the public domain as well. If you wish to contribute back
+ * to this project, your code must be released into the public
+ * domain through use of the Unlicense.
+ */
+
+#share-button {
+  background-color:#e1e8ed;
+  padding:10px;
+  position: absolute;
+  display: none;
+  width: 30px;
+  height: 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#share-button:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   width: 0;
+   height: 0;
+   margin-top:5px;
+   border-right: 10px solid #e1e8ed;
+   border-top: 8px solid transparent;
+   border-bottom: 8px solid transparent;
+}
