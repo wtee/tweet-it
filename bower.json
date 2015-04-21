@@ -1,0 +1,22 @@
+{
+  "name": "tweet-it",
+  "main": "['tweet-it.min.js', 'tweet-it.css']",
+  "version": "0.1",
+  "homepage": "https://github.com/wtee/tweet-it",
+  "authors": [
+    "wtee <wtee2015@gmail.com>"
+  ],
+  "description": "Highlight some text. Tweet it out. With Javascript.",
+  "keywords": [
+    "['twitter'",
+    "'share']"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
